@@ -1,0 +1,7 @@
+# requirements-dev.txt
+
+# Test runner
+pytest>=8.3.5
+
+# Coverage plugin for pytest
+pytest-cov>=4.0.0
