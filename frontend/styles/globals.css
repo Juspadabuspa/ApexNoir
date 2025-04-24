@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Override body background/text */
+body {
+  @apply bg-black text-gold;
+}

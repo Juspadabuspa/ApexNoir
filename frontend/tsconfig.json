@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+      /* Target modern browsers but down-compile to ES5 for wider support */
+      "target": "es5",
+      /* Include the latest DOM and ESNext features */
+      "lib": ["dom", "dom.iterable", "esnext"],
+  
+      /* Allow importing JS files too */
+      "allowJs": true,
+      /* Skip type-checking of declaration files for speed */
+      "skipLibCheck": true,
+      /* Enable all strict type-checking options */
+      "strict": true,
+      /* Enforce consistent casing in imports */
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Don’t emit any output—Next.js handles the build */
+      "noEmit": true,
+  
+      /* Module resolution and interop */
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+  
+      /* Preserve JSX for Next.js */
+      "jsx": "preserve",
+  
+      /* Enable incremental builds */
+      "incremental": true,
+  
+      /* Base directory for absolute imports */
+      "baseUrl": ".",
+      /* (Optional) Path aliases—for example @components/* */
+      "paths": {
+        "@components/*": ["components/*"],
+        "@utils/*": ["utils/*"]
+      }
+    },
+    "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
